@@ -1,0 +1,37 @@
+.sat {
+    color: #c5da13 !important;
+    font-size: 2rem !important;
+    font-weight: bold !important;
+    text-shadow: 3px 2px red !important;
+    background-color: transparent;
+    
+}
+
+.sat1{
+    background-attachment: fixed !important;
+}
+
+.sat2{
+     background-image:url('mainslidepic4.jpg');
+}
+.tag
+{
+    font-size: 75px;
+}
+
+.logo
+{
+    height: 66px;
+}
+
+.button:hover{
+    font-size: 28px;
+}
+
+.video1, .video2, .video3, .video4
+{
+    border: 10px outset #ddd;
+    margin: 0 auto;
+}
+
+
