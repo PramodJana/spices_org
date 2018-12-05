@@ -59,9 +59,6 @@
     
     
     
-    <center>   <h1 style="color:#C25100;font-size:90px;font-family:Lobster"><em><b>DAAL..</b></em></h1> </center><hr>
-    
-    
     
     
     <div class="card-deck">
@@ -75,9 +72,7 @@ Damaged Grain:1% Maximum<br>
 Foreign Material:1% Maximum<br>
 Shriveled and Broken Grains:3% Maximum<br>
 AdMixture (Maximum):2% Maximum<br>
-Green:5% Maximum<br>
-Weevilled Seeds:2% Maximum<br>
-Unhusk:4% Maximum</p>
+</p>
     </div>
   </div>
   <div class="card">
@@ -128,7 +123,7 @@ Form:Vigna Beans</p>
     height: 209px;">
     <div class="card-body">
       <h5 class="card-title" style="font-family:Lobster">Simple Rice</h5>
-      <p class="card-text">Rice is the seed of the grass species Oryza sativa  or Oryza glaberrima . As a cereal grain, it is the most widely consumed staple food for a large part of the world's human population, especially in Asia. It is the agricultural commodity with the third-highest worldwide production , after sugarcane.<br> <br><br>Place of Origin:Indian<br>
+      <p class="card-text">Rice is the seed of the grass species Oryza sativa  or Oryza glaberrima . As a cereal grain, it is the most widely consumed staple food for a large part of the world's human population, especially in Asia.<br> <br><br>Place of Origin:Indian<br>
     Shriveled and Broken Grains:5% Maximum<br>
     Colour:White</p>
     </div>
@@ -138,12 +133,11 @@ Form:Vigna Beans</p>
     height: 209px;">
     <div class="card-body">
       <h5 class="card-title" style="font-family:Lobster">Golden Basmati Rice</h5>
-      <p class="card-text">The milling procedure of Golden Sella Rice differentiates itself from any other form of rice. It is ensured that the paddy is first steamed and further dried, for the purpose of milling. Later the rice is gently parboiled to lock-in the nutrients. ... Golden Sella Rice is also appreciated for various health benefits.<br> <br><br> Place of Origin:India
+      <p class="card-text">The milling procedure of Golden Sella Rice differentiates itself from any other form of rice. It is ensured that the paddy is first steamed and further dried, for the purpose of milling. Later the rice is gently parboiled to lock-in the nutrients..<br> <br><br> Place of Origin:India
     Shelf Life:2 years<br>
     Moisture:13% Maximum<br>
     Damaged Grain:1% Maximum<br>
-    Shriveled and Broken Grains:2.0% Maximum<br>
-    Size:8.3 MM Minimum</p>
+        </p>
   
     </div>
   </div>
@@ -152,16 +146,11 @@ Form:Vigna Beans</p>
     height: 209px;">
     <div class="card-body">
       <h5 class="card-title" style="font-family:Lobster">Sughandha steam rice</h5>
-      <p class="card-text">This rice is consumed by a large group of people all around the world. The offered range is first properly cleaned and then dried in mature paddy subject to the hot steam and machine dried before hulling. The Steamed Rice manufactured by our company is great in taste and has many nutritional values. Our products can be availed in packaging of different quantities so that the clients can select one according to their needs and requirements.<br> <br><br>
+      <p class="card-text">This rice is consumed by a large group of people all around the world. The offered range is first properly cleaned and then dried in mature paddy subject to the hot steam and machine dried before hulling.<br> <br><br>
     Style:raw<br>
     Packaging:attractive<br>
     Color:White,golden<br>
-    Place of Origin:Haryana, India<br>
-    Brand Name:as per required<br>
-    Certification:as per buyer required<br>
-    Shape:Long-Grain Rice<br>
-    Type:Common<br>
-    Form:Broken Ratio- 1.50%, Max Moisture- 13%, Admixture- 5%</p>
+    Place of Origin:Haryana, India<br></p>
     </div>
   </div>
 </div>
@@ -200,7 +189,7 @@ Form:Vigna Beans</p>
     height: 209px;">
     <div class="card-body">
       <h5 class="card-title" style="font-family:Lobster">Golden Basmati Rice</h5>
-      <p class="card-text">The milling procedure of Golden Sella Rice differentiates itself from any other form of rice. It is ensured that the paddy is first steamed and further dried, for the purpose of milling. Later the rice is gently parboiled to lock-in the nutrients. ... Golden Sella Rice is also appreciated for various health benefits.<br> <br><br> Place of Origin:India
+      <p class="card-text">The milling procedure of Golden Sella Rice differentiates itself from any other form of rice. It is ensured that the paddy is first steamed and further dried, for the purpose of milling..<br> <br><br> Place of Origin:India
     Shelf Life:2 years<br>
     Moisture:13% Maximum<br>
     Damaged Grain:1% Maximum<br>
@@ -210,20 +199,18 @@ Form:Vigna Beans</p>
     </div>
   </div>
   <div class="card">
-    <img class="card-img-top" src="img1/sugandha-steam-rice-1517554.jpg" alt="Card image cap" style="width: 349px;
+    <img class="card-img-top" src="img1/turmaric.jpg" alt="Card image cap" style="width: 349px;
     height: 209px;">
     <div class="card-body">
       <h5 class="card-title" style="font-family:Lobster">Sughandha steam rice</h5>
-      <p class="card-text">This rice is consumed by a large group of people all around the world. The offered range is first properly cleaned and then dried in mature paddy subject to the hot steam and machine dried before hulling. The Steamed Rice manufactured by our company is great in taste and has many nutritional values. Our products can be availed in packaging of different quantities so that the clients can select one according to their needs and requirements.<br> <br><br>
+      <p class="card-text">This rice is consumed by a large group of people all around the world. The offered range is first properly cleaned and then dried in mature paddy subject to the hot steam and machine dried before hulling. .<br> <br><br>
     Style:raw<br>
     Packaging:attractive<br>
     Color:White,golden<br>
     Place of Origin:Haryana, India<br>
     Brand Name:as per required<br>
     Certification:as per buyer required<br>
-    Shape:Long-Grain Rice<br>
-    Type:Common<br>
-    Form:Broken Ratio- 1.50%, Max Moisture- 13%, Admixture- 5%</p>
+  </p>
     </div>
   </div>
 </div>

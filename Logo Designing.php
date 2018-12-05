@@ -4,120 +4,194 @@
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+      <meta name="description" content="We Potrays Your Imaginaton">
+      <meta name="keywords" content="Inaudita, Inaudita,Let's The Emotion Speaks,We are the Storytellers,Lights, Camera, Action">
+      <meta name="author" content="Pramod Jana">
 
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
-       <link href="style.css" rel="stylesheet">
-      <style>
+      <link href="style.css" rel="stylesheet">
       
-          .sat_desg
-          {
-              color: #c5da13 !important;
-              font-size: 5rem !important;
-              font-weight: bold !important;
-              text-shadow: 3px 2px red !important;
-              background-color: transparent;
-            }
-    
-          .desg_p
-          {
-            margin-bottom: 2.5rem;
-            margin-bottom: 5rem;
-            font-family: inherit;
-            font-weight: 500;
-            line-height: 1.2;
-            color: red;
-            font-weight: 401;
-
-          }
+      <link href="https://fonts.googleapis.com/css?family=Arvo" rel="stylesheet"> 
 
 
-          .desg-hea
-          {
-            font-weight: 647;
-        font-size: 2.1rem;
-          }
-          body
-          {
-              background-image: url(img1/logo_designing_body.jpeg);
-              /* Full height */
-    height: 100%; 
-
-    /* Center and scale the image nicely */
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-          }
+      <!--Animate Css-->
+      <link rel="stylesheet"
+  href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
+       <!--Wow JS-->
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.min.js"></script>
+      
+      
+      
+      
+       <style>
+      body{
+    background: -webkit-linear-gradient(left, #0072ff, #00c6ff);
+}
+.contact-form{
+    background: #fff;
+    margin-top: 10%;
+    margin-bottom: 5%;
+    width: 70%;
+}
+.contact-form .form-control{
+    border-radius:1rem;
+}
+.contact-image{
+    text-align: center;
+}
+.contact-image img{
+    border-radius: 6rem;
+    width: 11%;
+    margin-top: -3%;
+    transform: rotate(29deg);
+}
+.contact-form form{
+    padding: 14%;
+}
+.contact-form form .row{
+    margin-bottom: -7%;
+}
+.contact-form h3{
+    margin-bottom: 8%;
+    margin-top: -10%;
+    text-align: center;
+    color: #0062cc;
+}
+.contact-form .btnContact {
+    width: 50%;
+    border: none;
+    border-radius: 1rem;
+    padding: 1.5%;
+    background: #dc3545;
+    font-weight: 600;
+    color: #fff;
+    cursor: pointer;
+}
+.btnContactSubmit
+{
+    width: 50%;
+    border-radius: 1rem;
+    padding: 1.5%;
+    color: #fff;
+    background-color: #0062cc;
+    border: none;
+    cursor: pointer;
+}
       
       </style>
 
-    <title>inaudita |Logo Designing</title>
+
+
+
+
+
+    <title>Inaudita: We portray your imaginations</title>
   </head>
   <body>
-      <?php
-      include 'header.php';
-      ?>
-      <br>
-      <br>
-      <br>
-      <br>
-      <center><h7 class="sat_desg">LOGO DESIGNING</h7></center>
-      <center><h1 class="desg_p">Logo is the most important brand identifier. It is important to invest enough time into its creation</h1></center><br>
-      <center><h1 class="desg-hea">Questions rise  in the mind of  our designers:</h1></center><br>
-      <h1>Simplicity</h1><br>
-            <p>Is the design simple and pure enough to be flexible and easily recognisable?</p><br>
+      <!--Wow JS Activation-->
+       <script>
+              new WOW().init();
+              </script>
 
-      <h1>Recognition</h1><br>
+    <?php
+    include 'header.php';
+    ?>
       
-      <p>Is the logo quickly recognisable?</p><br>
       
-      <h1>Functionality</h1><br>
       
-      <p>Does the logo represent good quality and size ratio? Will it function in different sizes without losing quality? Will it function in application on different media and in different context?</p><br>
-       
-      <h1>Appropriateness</h1><br>
       
-            <p>Does the logo communicate with the desired audience?</p><br>
+      
+<div class="container contact-form" style="margin-top:131px">
+            <div class="contact-image">
+                <img src="https://image.ibb.co/kUagtU/rocket_contact.png" alt="rocket_contact"/>
+            </div>
+            <form method="post">
+                <h3>Drop Us a Message</h3>
+               <div class="row">
+                    <div class="col-md-6">
+                        <div class="form-group">
+                            <input type="text" name="txtName" class="form-control" placeholder="Your Name *" value="" />
+                        </div>
+                        <div class="form-group">
+                            <input type="text" name="txtEmail" class="form-control" placeholder="Your Email *" value="" />
+                        </div>
+                        <div class="form-group">
+                            <input type="text" name="txtPhone" class="form-control" placeholder="Your Phone Number *" value="" />
+                        </div>
+                        <div class="form-group">
+                            <input type="submit" name="btnSubmit" class="btnContact" value="Send Message" />
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="form-group">
+                            <textarea name="txtMsg" class="form-control" placeholder="Your Message *" style="width: 100%; height: 150px;"></textarea>
+                        </div>
+                    </div>
+                </div>
+            </form>
+</div>
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+    <?php
+    include 'footer.php';
+    ?>
 
-     <center><h1 class="desg_p">This is the process we follow when we design a logo.</h1></center><br>
-      
-      
-       <h1>Step 1: Meeting with the client</h1><br>
-      
-      <p>First step is meeting the client. Who better to explain their vision and wishes than ones ordering the logo. it is desirable to obtain as many information possible on what the client exactly wants. If he does not know what he wants, we help him define this immediately in phase one.</p><br>
-      
-      <h1>Step 2: Research</h1><br>
-      
-      <p>research the company for which you are designing the logo. Study its products, services, target group, market and talk to the clients about their vision i.e. business goals. Also pay attention to the competition – how to be prominent and different.</p>
-      
-     <h1>Step 3: Inspiration</h1><br>
-      
-      <p>Before starting work on concepts for clients, we like to create an inspiration browsing through the library of reference books and design guides.</p>
-      
-      <h1>Step 4: Sketching</h1><br>
-      
-      <p>A lot of designers lately go straight for the computer and start working on concepts. we prefer to use sketching as step one in visualization and we let our imagination guide us.</p>
-      
-      <h1>Step 6: Switching to the computer</h1><br>
-      
-      <p>It is time to jump over to the computer. he aim – take the best sketches and try to improve them. The idea is to narrow the potential solutions to maximum of three concepts.</p>
-      
-      <h1>Step 8: Logo presentation</h1><br>
-      
-      <p>The manner in which the logo is presented can be crucial.</p>
-      
-      <h1>Step 9: Finalization</h1><br>
-      
-      <p>Logo and its laws are an important document which we ensure for their client so they can use the same correctly and without loss of quality. </p>
-      
-      
-      <?php
-      include 'footer.php';
-      ?>
-    <!-- Optional JavaScript -->
+
+
+      <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
-  </body>
+    </body>
 </html>

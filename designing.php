@@ -4,158 +4,133 @@
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+      <meta name="description" content="We Potrays Your Imaginaton">
+      <meta name="keywords" content="Inaudita, Inaudita,Let's The Emotion Speaks,We are the Storytellers,Lights, Camera, Action">
+      <meta name="author" content="Pramod Jana">
 
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
-<style>
+      <link href="style.css" rel="stylesheet">
       
-      body
-          {
-              background-image: url(img1/Designing_back.jpg);
-              /* Full height */
-    height: 100%; 
+      <link href="https://fonts.googleapis.com/css?family=Arvo" rel="stylesheet"> 
 
-    /* Center and scale the image nicely */
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-          }
+
+      <!--Animate Css-->
+      <link rel="stylesheet"
+  href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
+       <!--Wow JS-->
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.min.js"></script>
+      
+      
+      
+      
+       <style>
+      body{
+    background: -webkit-linear-gradient(left, #0072ff, #00c6ff);
+}
+.contact-form{
+    background: #fff;
+    margin-top: 10%;
+    margin-bottom: 5%;
+    width: 70%;
+}
+.contact-form .form-control{
+    border-radius:1rem;
+}
+.contact-image{
+    text-align: center;
+}
+.contact-image img{
+    border-radius: 6rem;
+    width: 11%;
+    margin-top: -3%;
+    transform: rotate(29deg);
+}
+.contact-form form{
+    padding: 14%;
+}
+.contact-form form .row{
+    margin-bottom: -7%;
+}
+.contact-form h3{
+    margin-bottom: 8%;
+    margin-top: -10%;
+    text-align: center;
+    color: #0062cc;
+}
+.contact-form .btnContact {
+    width: 50%;
+    border: none;
+    border-radius: 1rem;
+    padding: 1.5%;
+    background: #dc3545;
+    font-weight: 600;
+    color: #fff;
+    cursor: pointer;
+}
+.btnContactSubmit
+{
+    width: 50%;
+    border-radius: 1rem;
+    padding: 1.5%;
+    color: #fff;
+    background-color: #0062cc;
+    border: none;
+    cursor: pointer;
+}
       
       </style>
-      
-      
-    <title>inaudita | Designing</title>
+
+
+
+
+
+
+    <title>Inaudita: We portray your imaginations</title>
   </head>
   <body>
-      <?php
-      include 'header.php';
-      ?>
-      <br><br><br><br>
-      
-      
-      <div class="container"> 
-    <center><h1>Introduction</h1></center>
-          <hr>
-    <p class="lead txt">Creativity is the basic tenet of visual communication. 
-     'How you say' is as much important as ‘what you say’ to make your statement to standout.
-     Graphic designing is an art or a creative plan to achieve goals with the use of images, words or symbols. 
-     Graphic designing plays an important role in building a first impression on clients, vendors and other entities. 
-     This process involves logo designing, branding etc.
-     Through Graphic designs, an individual or an entity can capitalize on expressing their innovative ideas and representations.</p>
-	<p></p>
-     </div>
-      <br>
-      
-      
-      
-      <div class="container">
-	<center><h1>Why Us?</h1></center>
-          <hr>
-	<p class="lead">Quality,Strength, Ability, Boldness, Trust, 
-	are a few words that express a Brand…!!! What does your brand say about you? Will you be the first choice when a customer visit’s your website…??
-	 Your brand needs to tell your story to the customer both consciously and subconsciously conveying the qualities that make you not only the first choice but also the best choice. 
-	The Creative Momentum in graphic designing is to sell your brand and not just the logo.</p>
-	<ul class="lead">
-	<li>We always value customer satisfaction and for that, never compromise on quality</li>
-	<li>Our professionals devotedly adhere to deadlines. </li>
-	<li>Versatility in our service is always what we strive to present you with.</li>
-	</ul>
-     </div>
-      <br>
-    
+      <!--Wow JS Activation-->
+       <script>
+              new WOW().init();
+              </script>
+
+    <?php
+    include 'header.php';
+    ?>
       
       
       
       
       
-      
-      
-      
-      
-      
-      
-<div class="container">
-    <center><h1>Services</h1></center>
-    <hr>
-    <div class="row">
-<div class="col-sm-4">
-    <div class="card" style="width: 18rem;">
-  <img class="card-img-top design_card" src="img1/mainslidepic1.jpg" alt="Card image cap">
-  <div class="card-body">
-    <h5 class="card-title">Logo Designing</h5>
-    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-      <center><a href="Logo Designing.php" class="btn btn-primary">Go somewhere</a></center>
-  </div>
+<div class="container contact-form" style="margin-top:131px">
+            <div class="contact-image">
+                <img src="https://image.ibb.co/kUagtU/rocket_contact.png" alt="rocket_contact"/>
+            </div>
+            <form method="post">
+                <h3>Drop Us a Message</h3>
+               <div class="row">
+                    <div class="col-md-6">
+                        <div class="form-group">
+                            <input type="text" name="txtName" class="form-control" placeholder="Your Name *" value="" />
+                        </div>
+                        <div class="form-group">
+                            <input type="text" name="txtEmail" class="form-control" placeholder="Your Email *" value="" />
+                        </div>
+                        <div class="form-group">
+                            <input type="text" name="txtPhone" class="form-control" placeholder="Your Phone Number *" value="" />
+                        </div>
+                        <div class="form-group">
+                            <input type="submit" name="btnSubmit" class="btnContact" value="Send Message" />
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="form-group">
+                            <textarea name="txtMsg" class="form-control" placeholder="Your Message *" style="width: 100%; height: 150px;"></textarea>
+                        </div>
+                    </div>
+                </div>
+            </form>
 </div>
-      </div>
-<div class="col-sm-4">
-<div class="card" style="width: 18rem;">
-  <img class="card-img-top design_card" src="img1/mainslidepic2.jpg" alt="Card image cap">
-  <div class="card-body">
-    <h5 class="card-title">Visiting Card</h5>
-    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-      <center><a href="Visiting Card.php" class="btn btn-primary">Go somewhere</a></center>
-  </div>
-</div>
-</div>
-<div class="col-sm-4">
-<div class="card" style="width: 18rem;">
-  <img class="card-img-top design_card" src="img1/mainslidepic3.jpg" alt="Card image cap">
-  <div class="card-body">
-    <h5 class="card-title">Poster</h5>
-    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-      <center><a href="Poster.php" class="btn btn-primary">Go somewhere</a></center>
-  </div>
-</div>
-</div>
-    </div>
-      
-    
-    <br>
-    <br>
-    
-<div class="row">
-<div class="col" style="padding-left:180px">
-    <div class="card" style="width: 18rem;">
-  <img class="card-img-top design_card" src="img1/mainslidepic1.jpg" alt="Card image cap">
-  <div class="card-body">
-    <h5 class="card-title">Brochure and Catelogue</h5>
-    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-      <center><a href="Brochure and Catelogue.php" class="btn btn-primary">Go somewhere</a></center>
-  </div>
-</div>
-      </div>
-<div class="col">
-<div class="card" style="width: 18rem;">
-  <img class="card-img-top design_card" src="img1/mainslidepic2.jpg" alt="Card image cap">
-  <div class="card-body">
-    <h5 class="card-title">IDENTITY CARD</h5>
-    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-      <center><a href="IDENTITY CARD.php" class="btn btn-primary">Go somewhere</a></center>
-  </div>
-</div>
-</div>
-    
-    
-    
-    
-    </div>
-    
-</div>
-
-
-
-
-
-
-
-
-
-
-
-
-
-     
       
       
       
@@ -166,15 +141,57 @@
       
       
       
-      <br>
       
-      <?php
-      include 'footer.php';
-      ?>
-    <!-- Optional JavaScript -->
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+    <?php
+    include 'footer.php';
+    ?>
+
+
+
+      <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
-  </body>
+    </body>
 </html>
