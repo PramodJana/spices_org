@@ -25,6 +25,26 @@
       
       
        <style>
+	   
+	   
+	   .special-card {
+/* create a custom class so you 
+   do not run into specificity issues 
+   against bootstraps styles
+   which tends to work better than using !important 
+   (future you will thank you later)*/
+
+  background-color: rgba(245, 245, 245, 1);
+  opacity: .7;
+}
+	   
+	   
+	   
+	   
+	   
+	   
+	   
+	   
   body
       {
               background-image: url(img1/back_ground.jpg);
@@ -60,10 +80,10 @@
     <div class="carousel-item active">
       <img class="d-block w-100" src="img1/grain-corn-maize.jpg" alt="First slide" style="height:666px">
         <div class="carousel-caption d-none d-md-block">
-            <div class="card" style="width: 18rem;">
-  <div class="card-body card_color">
+            <div class="card special-card" style="width: 18rem;">
+  <div class="card-body ">
     <h5 class="card-title">Card title</h5>
-    <p class="card-text">We invest in  terminals and logistics to enhance our physical trading activities. We build warehouses and storage facilities, operate truck and barge fleets – whatever it takes - to help trade flow better</p>
+    <p class="card-text" style="color:black">We invest in  terminals and logistics to enhance our physical trading activities. We build warehouses and storage facilities, operate truck and barge fleets – whatever it takes - to help trade flow better</p>
   </div>
 </div>
     <p class="tag wow fadeInUp"></p>
@@ -73,10 +93,10 @@
     <div class="carousel-item">
       <img class="d-block w-100" src="img1/coop.jpg" alt="Second slide" style="height:666px">
         <div class="carousel-caption d-none d-md-block">
-            <div class="card" style="width: 18rem;">
+            <div class="card special-card" style="width: 18rem;">
   <div class="card-body">
     <h5 class="card-title">Card title</h5>
-      <p class="card-text"><b>Blend</b> we blend soft physical commodities to alter their quality or grade according to customer specifications</p>
+      <p class="card-text" style="color:black"><b>Blend</b> we blend soft physical commodities to alter their quality or grade according to customer specifications</p>
   </div>
 </div>
   </div>
@@ -84,10 +104,10 @@
     <div class="carousel-item">
       <img class="d-block w-100" src="img1/slider-02.jpg" alt="Third slide" style="height:666px">
         <div class="carousel-caption d-none d-md-block">
-            <div class="card" style="width: 18rem;">
+            <div class="card special-card" style="width: 18rem;">
   <div class="card-body">
     <h5 class="card-title">Card title</h5>
-    <p class="card-text">We operate efficient, safe and high-quality logistics. We move commodities by  truck, rail etc in support of our core trading activities and for third parties.</p>
+    <p class="card-text" style="color:black">We operate efficient, safe and high-quality logistics. We move commodities by  truck, rail etc in support of our core trading activities and for third parties.</p>
   </div>
 </div>
     <p class="tag"></p>
