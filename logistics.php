@@ -11,8 +11,8 @@
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
       <link href="style.css" rel="stylesheet">
-      
-      <link href="https://fonts.googleapis.com/css?family=Arvo" rel="stylesheet"> 
+
+      <link href="https://fonts.googleapis.com/css?family=Arvo" rel="stylesheet">
 
 
       <!--Animate Css-->
@@ -20,10 +20,10 @@
   href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
        <!--Wow JS-->
       <script src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.min.js"></script>
-      
-      
-      
-      
+
+
+
+
        <style>
       body{
     background: -webkit-linear-gradient(left, #0072ff, #00c6ff);
@@ -78,9 +78,23 @@
     border: none;
     cursor: pointer;
 }
-      
-      </style>
 
+      </style>
+      <script>
+      function validateEmail(emailField){
+              var reg = /^([A-Za-z0-9_\-\.])+\@([A-Za-z0-9_\-\.])+\.([A-Za-z]{2,4})$/;
+
+              if (reg.test(emailField.value) == false)
+              {
+                  alert('Invalid Email Address');
+                  return false;
+              }
+
+              return true;
+
+      }
+
+      </script>
 
 
 
@@ -97,119 +111,119 @@
     <?php
     include 'header.php';
     ?>
-      
-      
-      
-      
-      
+
+
+
+
+
 <div class="container contact-form" style="margin-top:131px">
             <div class="contact-image">
                 <img src="https://image.ibb.co/kUagtU/rocket_contact.png" alt="rocket_contact"/>
             </div>
-            <form method="post">
+            <form method="post" action="secure_email_code.php">
                 <h3>Drop Us a Message</h3>
                 <p>Note: Maximum Amount is 5 ton</p>
                <div class="row">
                     <div class="col-md-6">
                         <div class="form-group">
-                            <input type="text" name="txtName" class="form-control" placeholder="Your Name *" value="" />
+                            <input type="text" name="txtName" class="form-control" placeholder="Your Name *" value="" required/>
                         </div>
                         <div class="form-group">
-                            <input type="text" name="txtEmail" class="form-control" placeholder="Phone Number *" value="" />
+                            <input type="text" name="txtEmail" class="form-control" onblur="validateEmail(this);" placeholder="Your Email *" value="" required/>
                         </div>
                         <div class="form-group">
-                            <input type="text" name="txtPhone" class="form-control" placeholder="Email Address *" value="" />
+                            <input type="text" name="txtPhone" class="form-control" pattern="[1-9]{1}[0-9]{9}" title="Enter 10 digit mobile number" placeholder="Mobile number" required/>
                         </div>
                         <p>From (pickup address)</p>
                     </div>
                     <div class="col-md-6">
                         <div class="form-group">
-                            <textarea name="txtMsg" class="form-control" placeholder="Your Message *" style="width: 100%; height: 150px;"></textarea>
+                            <textarea name="txtMsg" class="form-control" placeholder="Your Message *" style="width: 100%; height: 150px;" required></textarea>
                         </div>
                     </div>
                 </div>
                 <br>
                 <br>
-                
-                
+
+
                 <div class="row">
                     <div class="col-md-6">
                         <div class="form-group">
-                            <input type="text" name="txtName" class="form-control" placeholder="Address *" value="" />
+                            <input type="text" name="txtName" class="form-control" placeholder="Address *" value="" required/>
                         </div>
                         <p>To(Destination address)</p>
                         <div class="form-group">
-                            <input type="text" name="txtName" class="form-control" placeholder="Address *" value="" />
+                            <input type="text" name="txtName" class="form-control" placeholder="Address *" value="" required/>
                         </div>
-                        
-                        
+
+
                         <div class="form-group">
-                            <input type="text" name="txtEmail" class="form-control" placeholder="Type Of Prodect" value="" />
+                            <input type="text" name="txtEmail" class="form-control" placeholder="Type Of Prodect" value="" required/>
                         </div>
-        
+
                         <div class="form-group">
-                            <input type="submit" name="btnSubmit" class="btnContact" value="Send Message" />
+                            <input type="submit" name="btnSubmit" class="btnContact" value="Send Message" required/>
                         </div>
                     </div>
                 </div>
-                
-                
-                
-                
-                
+
+
+
+
+
             </form>
 </div>
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
     <?php
     include 'footer.php';
     ?>
