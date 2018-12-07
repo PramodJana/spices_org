@@ -76,7 +76,7 @@
             <div class="card" style="width: 18rem;">
   <div class="card-body">
     <h5 class="card-title">Card title</h5>
-    <p class="card-text">blend=we blend soft physical commodities to alter their quality or grade according to customer specifications</p>
+      <p class="card-text"><b>Blend</b> we blend soft physical commodities to alter their quality or grade according to customer specifications</p>
   </div>
 </div>
   </div>
@@ -129,7 +129,7 @@ Chickpea is a key ingredient in hummus, chana masala, and can be ground into flo
           
           
           </div>
-    </div>
+    </div><hr>
     <br><br>
     
     
@@ -146,7 +146,7 @@ Chickpea is a key ingredient in hummus, chana masala, and can be ground into flo
           <img src="img1/Spices_in_an_Indian_market.jpg" style="height: 261px;width: 345px;border-radius: 108px;margin-left: 50px;">
           
           </div>
-    </div>
+    </div><hr>
     
     
     
@@ -173,7 +173,7 @@ Since sizable portions of sugarcane and maize crops are used for purposes other 
           
           
           </div>
-    </div>
+    </div><hr>
       <br>
     <br>
     

@@ -108,7 +108,7 @@
             </div>
             <form method="post">
                 <h3>Drop Us a Message</h3>
-                <p>Note: Maximum Amount is 5 ton</p>
+                <p>Note: Maximum Amount to buy is 5 ton</p>
                <div class="row">
                     <div class="col-md-6">
                         <div class="form-group">
@@ -120,7 +120,6 @@
                         <div class="form-group">
                             <input type="text" name="txtPhone" class="form-control" placeholder="Email Address *" value="" />
                         </div>
-                        <p>From (pickup address)</p>
                     </div>
                     <div class="col-md-6">
                         <div class="form-group">
@@ -135,18 +134,11 @@
                 <div class="row">
                     <div class="col-md-6">
                         <div class="form-group">
-                            <input type="text" name="txtName" class="form-control" placeholder="Address *" value="" />
+                            <input type="text" name="txtName" class="form-control" placeholder="Product of interest" value="" />
                         </div>
-                        <p>To(Destination address)</p>
                         <div class="form-group">
-                            <input type="text" name="txtName" class="form-control" placeholder="Address *" value="" />
+                            <input type="text" name="txtEmail" class="form-control" placeholder="Deliver address *" value="" />
                         </div>
-                        
-                        
-                        <div class="form-group">
-                            <input type="text" name="txtEmail" class="form-control" placeholder="Type Of Prodect" value="" />
-                        </div>
-        
                         <div class="form-group">
                             <input type="submit" name="btnSubmit" class="btnContact" value="Send Message" />
                         </div>

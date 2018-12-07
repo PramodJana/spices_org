@@ -30,8 +30,8 @@ animation-iteration-count:infinite;}
 <?php
 
 echo'
-<nav class="navbar fixed-top navbar-expand-lg navbar-light" style="background-color:#0277BD">
-<a class="navbar-brand wow pulse"><img class="d-block w-80 logo wow blink" src="img1/logo.png" alt="First slide" style="height:66px"></a>
+<nav class="navbar fixed-top navbar-expand-lg navbar-light" style="background-color:#0277BD;height:91px">
+<a class="navbar-brand wow pulse"><p style="color:white;font-size:43px">Agrofirm.com</p></a>
   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
     <span class="navbar-toggler-icon"></span>
   </button>
@@ -47,10 +47,10 @@ echo'
         <a class="nav-link button" href="aboutus.php" style="color:#FAFAFA"><b><em>About us</b></em></a>
       </li>
         <li class="nav-item">
-        <a class="nav-link button" href="designing.php" style="color:#FAFAFA"><b><em>Enquiry</b></em></a>
+        <a class="nav-link button" href="enquiry.php" style="color:#FAFAFA"><b><em>Enquiry</b></em></a>
       </li>
       <li class="nav-item">
-        <a class="nav-link button" href="designing.php" style="color:#FAFAFA"><b><em>Partners</b></em></a>
+        <a class="nav-link button" href="partners.php" style="color:#FAFAFA"><b><em>Partners</b></em></a>
       </li>
 
     </ul>

@@ -74,7 +74,7 @@
 <div class="card">
   <img class="card-img-top" src="img1/sell.gif" alt="Card image cap" style="height: 215px;width: 347px;" >
   <div class="card-body">
-      <a href="enquiry.php" class="btn btn-primary btn-lg btn-block" tabindex="-1" role="button" aria-disabled="true">Sell</a>
+      <a href="sell.php" class="btn btn-primary btn-lg btn-block" tabindex="-1" role="button" aria-disabled="true">Sell</a>
 
   </div>
 </div>

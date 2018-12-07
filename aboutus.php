@@ -73,42 +73,40 @@ Our status as a private company and non-hierarchical partnership structure gives
         
         
         
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
+        </div>
+    <br>
+    <br>
+    <br>
+    <br>
     
     
     
-    
-
-
-</div>
+    <div style="background-color:#330d00";>
+        <center><p style="color:white;font-size: 40px"><b>Contact Us</b></p></center><hr>
+        <center><p style="color:white;font-size: 40px">Need Any Help?? We Love To Hear You</p></center><br>
+        <center><p style="color:white;font-size: 40px">GLA University </p></center>
+        <center><p style="color:white;font-size: 40px">17km Stone, NH-2,</p></center>
+        <center><p style="color:white;font-size: 40px">Mathura-Delhi Road </p></center>
+        <center><p style="color:white;font-size: 40px">Mathura-281 406 (U.P.) INDIA </p></center>
+        <center><p style="color:white;font-size: 40px">7376489468, ujwal.khare_cs16@gla.ac.in</p></center>
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+    </div>
 
 
 

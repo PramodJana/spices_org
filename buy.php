@@ -55,7 +55,7 @@
     include 'header.php';
     ?>
 <div class="container" style="margin-top:121px">
-<center>   <p style="color:#C25100;font-size:105px;font-family:Lobster"><em><b>Bulk Products</b></em></p> </center><br><br><br><br>
+   <p style="color:black;font-size:60px;font-family:Lobster"><em><b>Bulk Products</b></em></p><hr>
     
     
     
@@ -73,6 +73,7 @@ Foreign Material:1% Maximum<br>
 Shriveled and Broken Grains:3% Maximum<br>
 AdMixture (Maximum):2% Maximum<br>
 </p>
+            <a href="buy_form.php" class="btn btn-primary">Explore More</a>
     </div>
   </div>
   <div class="card">
@@ -83,7 +84,8 @@ AdMixture (Maximum):2% Maximum<br>
       <p class="card-text">discription:Moisture:15% Maximum<br>
 Foreign Material:0.5 Maximum<br>
 AdMixture (Maximum):0.5 Maximum<br>
-Size:2 MM, 3 MM</p>
+Size:2 MM, 3 MM<br><br></p>
+        <a href="buy_form.php" class="btn btn-primary">Explore More</a>
     </div>
   </div>
   <div class="card">
@@ -95,8 +97,8 @@ Size:2 MM, 3 MM</p>
 Packaging:Bulk<br>
 Place of Origin:Myanmar<br>
 Weight (Kg):25<br>
-Type:Urad Beans<br>
-Form:Vigna Beans</p>
+          Type:Urad Beans<br></p>
+        <a href="buy_form.php" class="btn btn-primary">Explore More</a>
     
     </div>
   </div>
@@ -105,7 +107,6 @@ Form:Vigna Beans</p>
     <br>
     <br>
     <br>
- <center>   <p style="color:#C25100;font-size:90px;font-family:Lobster"><em><b>Rice..</b></em></p> </center><hr>
     <br>
     <br>
     <br>
@@ -125,7 +126,8 @@ Form:Vigna Beans</p>
       <h5 class="card-title" style="font-family:Lobster">Simple Rice</h5>
       <p class="card-text">Rice is the seed of the grass species Oryza sativa  or Oryza glaberrima . As a cereal grain, it is the most widely consumed staple food for a large part of the world's human population, especially in Asia.<br> <br><br>Place of Origin:Indian<br>
     Shriveled and Broken Grains:5% Maximum<br>
-    Colour:White</p>
+    Colour:White<br><br></p>
+        <a href="buy_form.php" class="btn btn-primary">Explore More</a>
     </div>
   </div>
   <div class="card">
@@ -138,6 +140,7 @@ Form:Vigna Beans</p>
     Moisture:13% Maximum<br>
     Damaged Grain:1% Maximum<br>
         </p>
+        <a href="buy_form.php" class="btn btn-primary">Explore More</a>
   
     </div>
   </div>
@@ -151,10 +154,10 @@ Form:Vigna Beans</p>
     Packaging:attractive<br>
     Color:White,golden<br>
     Place of Origin:Haryana, India<br></p>
+        <a href="buy_form.php" class="btn btn-primary">Explore More</a>
     </div>
   </div>
-</div>
-    
+</div>    
       
       
     <br>
@@ -162,7 +165,6 @@ Form:Vigna Beans</p>
     <br>
     <br>
     <br> 
- <center>   <p style="color:brown;font-size:90px;font-family:Lobster"><em><b>Spices..</b></em></p> </center><hr>
     <br>
     <br>
     <br>
@@ -182,6 +184,7 @@ Form:Vigna Beans</p>
       <p class="card-text">Rice is the seed of the grass species Oryza sativa  or Oryza glaberrima . As a cereal grain, it is the most widely consumed staple food for a large part of the world's human population, especially in Asia. It is the agricultural commodity with the third-highest worldwide production , after sugarcane.<br> <br><br>Place of Origin:Indian<br>
     Shriveled and Broken Grains:5% Maximum<br>
     Colour:White</p>
+        <a href="buy_form.php" class="btn btn-primary">Explore More</a>
     </div>
   </div>
   <div class="card">
@@ -194,7 +197,8 @@ Form:Vigna Beans</p>
     Moisture:13% Maximum<br>
     Damaged Grain:1% Maximum<br>
     Shriveled and Broken Grains:2.0% Maximum<br>
-    Size:8.3 MM Minimum</p>
+    Size:8.3 MM Minimum</p><br>
+        <a href="buy_form.php" class="btn btn-primary">Explore More</a>
   
     </div>
   </div>
@@ -211,6 +215,7 @@ Form:Vigna Beans</p>
     Brand Name:as per required<br>
     Certification:as per buyer required<br>
   </p>
+        <a href="buy_form.php" class="btn btn-primary">Explore More</a>
     </div>
   </div>
 </div>
@@ -279,7 +284,7 @@ Form:Vigna Beans</p>
       
       
       
-      
+      </div>
       
       
       

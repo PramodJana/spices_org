@@ -120,7 +120,6 @@
                         <div class="form-group">
                             <input type="text" name="txtPhone" class="form-control" placeholder="Email Address *" value="" />
                         </div>
-                        <p>From (pickup address)</p>
                     </div>
                     <div class="col-md-6">
                         <div class="form-group">
@@ -137,16 +136,15 @@
                         <div class="form-group">
                             <input type="text" name="txtName" class="form-control" placeholder="Address *" value="" />
                         </div>
-                        <p>To(Destination address)</p>
                         <div class="form-group">
-                            <input type="text" name="txtName" class="form-control" placeholder="Address *" value="" />
+                            <input type="text" name="txtEmail" class="form-control" placeholder="Product Name *" value="" />
                         </div>
-                        
-                        
                         <div class="form-group">
-                            <input type="text" name="txtEmail" class="form-control" placeholder="Type Of Prodect" value="" />
+                            <input type="text" name="txtPhone" class="form-control" placeholder="Product Description" value="" />
                         </div>
-        
+                        <div class="form-group">
+                            <input type="text" name="txtPhone" class="form-control" placeholder="Product Amount" value="" />
+                        </div>
                         <div class="form-group">
                             <input type="submit" name="btnSubmit" class="btnContact" value="Send Message" />
                         </div>
